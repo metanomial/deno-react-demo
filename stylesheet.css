@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 1rem;
+  margin: 0 auto;
+  max-width: 60rem;
+  font-family: sans-serif;
+}
+
+body > nav > menu {
+  display: flex;
+  gap: 1rem;
+}
+
+body > nav > menu li {
+  display: block;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h1 {
+  margin-block: 1rem;
+}
